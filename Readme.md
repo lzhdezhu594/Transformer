@@ -8,24 +8,6 @@
 - PyTorch 1.9+
 - 其他依赖见 requirements.txt
 
-## 项目结构
-transformer/
-├── config.py # 模型配置参数
-├── model.py # Transformer模型实现
-├── data_loader.py # 数据加载和预处理
-├── train_only_encoder.py # 仅训练编码器（语言模型）
-├── train_seq2seq.py # 完整编码器-解码器训练
-├── test_components.py # 组件测试脚本
-├── ablation_study.py # 消融实验
-├── generate.py # 文本生成（编码器版本）
-├── generate_seq2seq.py # 文本生成（序列到序列版本）
-├── utils.py # 工具函数
-├── requirements.txt # 依赖包
-└── results/ # 训练结果和模型保存
-├── best_model.pth
-├── full_transformer_best.pth
-└── ablation/ # 消融实验结果
-
 ## 运行方法
 
 ### 1. 安装依赖
