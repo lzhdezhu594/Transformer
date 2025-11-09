@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
-from src.config import TransformerConfig
-from src.model import PositionalEncoding, MultiHeadAttention, PositionWiseFFN, ResidualConnection, TransformerEncoder
+from config import TransformerConfig
+from model import PositionalEncoding, MultiHeadAttention, PositionWiseFFN, ResidualConnection, TransformerEncoder
 
 def test_positional_encoding():
     """测试位置编码组件"""
